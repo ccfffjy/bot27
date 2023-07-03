@@ -31,11 +31,11 @@ try {
               $bot->sendvideo([ 'chat_id'=>$chatId,
                   'video'=>"https://t.me/QIEIWNS/4",
                    'caption'=>'𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑇𝑂 𝐻𝐸𝐿𝐿 †
-~ @RTYIJJk 🍂',
+~ @zskkaf 🍂',
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>'𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃','callback_data'=>'login']],
-                          [['text'=>"المطور ", 'url'=>"https://t.me/RTYIJJk"]],
+                          [['text'=>"المطور ", 'url'=>"https://t.me/zskkaf"]],
                          
                       ]
                   ])
@@ -47,7 +47,7 @@ if($text == '/help'){
               'caption'=>'طرق السحبب',
                       'reply_markup'=>json_encode([
                       'inline_keyboard'=>[                       
-                       [['text'=>"𝐓𝐞𝐥𝐞", 'url'=>"https://t.me/RTYIJJk"]],
+                       [['text'=>"𝐓𝐞𝐥𝐞", 'url'=>"https://t.me/ccvssm"]],
                        ]
                        ])
                        ]);
@@ -65,7 +65,7 @@ if($text == '/help'){
             $bot->sendMessage([
 		       'chat_id'=>$chatId,
                 'message_id'=>$mid,
-                'text'=>"لا تقلق ياسين المصري موجود لمساعده 🤍
+                'text'=>"ااهلا بك في بوت صيد متاحات هوبي🤍
 @RTYIJJk",
 
               ]);   
@@ -140,7 +140,7 @@ if($text == '/help'){
           		    $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @ccvssm",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -192,13 +192,13 @@ if($text == '/help'){
 				} else {
 					$bot->sendvideo([
        'chat_id'=>$chatId,
-       'video'=> "https://t.me/QIEIWNS/4",
+       'video'=> "https://t.me/zskkaf/4",
         'caption'=>'البوت مدفوع 💲 و ليس مجاني 
 لشراء نسخه مراسلة المطور ',
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
-                          [['text'=>'▫️| مطور البوت','url'=>'t.me/RTYIJJk']],
-                       [['text'=>"▪️| قناه صيد المشتركين", 'url'=>"t.me/YASEEENRJDJ3"]],
+                          [['text'=>'▫️| مطور البوت','url'=>'t.me/zskkaf']],
+                       [['text'=>"▪️| قناه صيد المشتركين", 'url'=>"t.me/ccvssm"]],
                   ]
 							])
 					]);
@@ -220,7 +220,7 @@ if($text == '/help'){
 		              $bot->sendMessage([
 		                  'chat_id'=>$chatId,
 		                  'message_id'=>$mid,
-		                   'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @RTYIJJk 𖤐",
+		                   'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @ccvssm 𖤐",
 		                  'reply_markup'=>json_encode($keyboard)
 		              ]);
           } elseif($data == 'addL'){
@@ -406,7 +406,7 @@ if($text == '/help'){
           	$bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @ccvssm",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -432,7 +432,7 @@ if($text == '/help'){
 		              $bot->editMessageText([
 		                  'chat_id'=>$chatId,
 		                  'message_id'=>$mid,
-		                    'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @RTYIJJk 𖤐",
+		                    'text'=>" 𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃𝚂 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙰𝙶𝙴 𝙱𝚈 @ccvssm 𖤐",
 		                  'reply_markup'=>json_encode($keyboard)
 		              ]);
           	} elseif($data[0] == 'moveList'){
@@ -484,7 +484,7 @@ date_default_timezone_set('Asia/Baghdad');
           	  $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @ccvssm",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
@@ -510,7 +510,7 @@ date_default_timezone_set('Asia/Baghdad');
           	  $bot->editMessageText([
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
-                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @RTYIJJk",
+                       'text'=>"𝙷𝙸 𝙱𝚁𝙾 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙱𝚈 ~ @ccvssm",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>' 👩‍🔧┇ 𝙰𝙳𝙳 𝙵𝙰𝙺𝙴 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 ','callback_data'=>'login']],
